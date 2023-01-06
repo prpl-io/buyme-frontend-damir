@@ -2,9 +2,12 @@
 
 .header {
   padding: 1rem;
-  background-color: $primary-bg;
-  box-shadow: 2px 2px 20px $primary-bg--hover;
+  background-color: $header-bg;
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @include mobile-view {
+    overflow-x: auto;
+  }
 }

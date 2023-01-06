@@ -12,10 +12,10 @@
     padding: 0.7rem 1.5rem;
     background-color: #fff;
     border: none;
-    border-bottom: 1px solid $primary-bg--hover;
+    border-bottom: 1px solid $border;
 
     &:hover {
-      background-color: $primary-bg--hover;
+      background-color: $border;
     }
   }
 
@@ -37,7 +37,7 @@
 
   &--selected {
     .list-item__button {
-      background-color: $primary-bg--hover;
+      background-color: $shadow;
     }
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Navigate, useParams } from "react-router-dom";
+
 import { appRoutes } from "../routes/appRoutes";
 
 import "./Page.scss";

@@ -21,7 +21,7 @@ const Button = (props) => {
         <img src={icon} className="button__icon" alt="btn icon" />
       )}
 
-      {text}
+      <span className="button__text">{text}</span>
 
       {icon !== null && iconPosition === "right" && (
         <img src={icon} className="button__icon" alt="btn icon" />

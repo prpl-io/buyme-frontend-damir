@@ -18,9 +18,7 @@ const Dropdown = (props) => {
 
   const [isDropdownOpen, setIsDropDownOpen] = useState(false);
 
-  const openDropdown = useCallback(() => {
-    setIsDropDownOpen(true);
-  }, []);
+  const openDropdown = useCallback(() => setIsDropDownOpen(true), []);
   const closeDropdown = useCallback(() => setIsDropDownOpen(false), []);
 
   const onListItemClick = useCallback(
