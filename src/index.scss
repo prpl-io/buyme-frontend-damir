@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+  color: #333;
+}
+
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input[type="button"] {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+button,
+input {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}

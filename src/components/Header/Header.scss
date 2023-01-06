@@ -1,0 +1,10 @@
+@import "src/styles";
+
+.header {
+  padding: 1rem;
+  background-color: $primary-bg;
+  box-shadow: 2px 2px 20px $primary-bg--hover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

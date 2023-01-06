@@ -1,0 +1,12 @@
+@import "src/styles";
+
+.text-field {
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  border: 1px solid $input-border;
+
+  &:focus-visible {
+    outline: none;
+    border: 1px solid $input-border--focused;
+  }
+}

@@ -1,0 +1,28 @@
+$laptop-view: 1024px;
+$tablet-view: 991px;
+$mobile-view: 767px;
+$mobile-view-small: 425px;
+
+@mixin mobile-view-small {
+  @media (max-width: $mobile-view-small) {
+    @content;
+  }
+}
+
+@mixin mobile-view {
+  @media (max-width: $mobile-view) {
+    @content;
+  }
+}
+
+@mixin tablet-view {
+  @media (max-width: $tablet-view) {
+    @content;
+  }
+}
+
+@mixin laptop-view {
+  @media (max-width: $laptop-view) {
+    @content;
+  }
+}

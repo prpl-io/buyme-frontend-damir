@@ -1,0 +1,21 @@
+@import "src/styles";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  display: flex;
+  flex: 1;
+  align-self: center;
+  width: $laptop-view;
+  margin: 2rem 0;
+  padding: 2rem;
+  box-shadow: 2px 2px 20px $primary-bg--hover;
+
+  @include laptop-view {
+    width: calc(100% - 2rem);
+  }
+}

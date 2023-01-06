@@ -1,0 +1,43 @@
+@import "src/styles";
+
+.list-item {
+  width: 100%;
+  list-style: none;
+
+  &__button {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid $primary-bg--hover;
+
+    &:hover {
+      background-color: $primary-bg--hover;
+    }
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.3rem;
+  }
+
+  &__label {
+    font-size: 1rem;
+  }
+
+  &:last-child {
+    .list-item__button {
+      border-bottom: none;
+    }
+  }
+
+  &--selected {
+    .list-item__button {
+      background-color: $primary-bg--hover;
+    }
+  }
+}
